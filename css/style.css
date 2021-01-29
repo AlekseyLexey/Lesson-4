@@ -1,0 +1,179 @@
+/* Подключение шрифтов &display=swap &subset=cyrillic-ext*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,700&display=swap');
+
+@font-face {
+    font-family: 'Zolina';
+    src: url('../fonts/Zolina-Bold.woff2') format('woff2'),
+        url('../fonts/Zolina-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Zolina';
+    src: url('../fonts/Zolina-SemiBold.woff2') format('woff2'),
+        url('../fonts/Zolina-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* Обнуляющий стиль */
+*,
+*::before, 
+*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+/* Стили */
+/* Header start */
+.header {
+	text-align: center;
+}
+.header__title {
+	font-family: Zolina;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 288%;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-shadow: 15px 50px 2px rgb(24, 8, 80);
+}
+.header__menu {
+	text-align: right;
+}
+.menu-header {
+	font-size: 24px;
+}
+.menu-header__link {
+	color: rgb(35, 126, 161);
+}
+.first-color{
+	color: rgb(255, 208, 0);
+}
+.hidden-link{
+	text-decoration: line-through;
+}
+.header__block {
+	font-size: 20px;
+}
+.header__block span{
+	font-style: italic;
+	color: rgba(3, 41, 3, 0.5);
+}
+.header__link {
+	font-style: italic;
+	color: blanchedalmond;
+	text-decoration: underline;
+}
+.header__text > span{
+	color: tomato;
+}
+/* Main start */
+.main__container{
+	text-align: center;
+}
+.main__title {
+	font-family: Zolina;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 320%;
+	text-transform: uppercase;
+	text-shadow: -3px -3px 2px rgb(212, 209, 12);
+}
+.main__attancion{
+	text-align: right;
+	font-size: 20px;
+	line-height: 270%;
+	font-style: italic;
+}
+.main__attancion span{
+	font-size: 24px;
+	font-style: normal;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: red;
+}
+.main__block {
+	width: 1600px;
+}
+.main__text {
+	letter-spacing: 3px;
+}
+.main__text span{
+	letter-spacing: normal;
+	color: palegreen;
+}
+.center{
+	text-align: center;
+	color: rgb(11, 43, 185);
+	text-shadow: -5px 10px 10px #000;
+}
+.center span{
+	word-spacing: 30px;
+	text-decoration: underline overline;
+}
+.over{
+	text-align: right;
+}
+.over span{
+	color:rgba(24, 8, 80, 0.212);
+	text-decoration: line-through;
+}
+.main__image {
+	text-align: center;
+}
+/* Footer start */
+.footer {
+	text-align: center;
+}
+.footer__title {
+	font-family: Zolina;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 240%;
+	text-transform: capitalize;
+	text-shadow: -5px -3px 3px rgb(114, 95, 196), 10px 5px 3px rgb(79, 97, 155);
+}
+.footer__list span{
+	color: rgb(179, 176, 40);
+}
+.footer__tel {
+	text-align: right;
+}
+.footer__list .three {
+	color: mediumslateblue;
+}
+.tel {
+	color: black;
+	white-space: nowrap;
+}
+.tel span{
+	color: red;
+}
